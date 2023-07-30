@@ -27,5 +27,8 @@
     "nodemon": "^3.0.1",
     "rimraf": "^5.0.1",
     "winston": "^3.10.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
