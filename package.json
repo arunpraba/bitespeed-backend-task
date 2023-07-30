@@ -2,11 +2,11 @@
   "name": "bitespeed-backend-task",
   "version": "1.0.0",
   "description": "Express.js Node.js app with TypeScript and Prisma",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "build": "tsc -p .",
-    "start": "node dist/index.js",
+    "start": "node build/index.js",
     "migrate:dev": "npx prisma migrate dev",
     "migrate:prod": "npx prisma migrate deploy"
   },
