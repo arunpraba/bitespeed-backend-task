@@ -5,8 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "build": "./node_modules/typescript/bin/tsc -p .",
-    "start": "node ./build/index.js",
+    "build": "./node_modules/typescript/bin/tsc",
+    "start": "node ./dist/index.js",
     "migrate:dev": "npx prisma migrate dev",
     "migrate:prod": "npx prisma migrate deploy"
   },
