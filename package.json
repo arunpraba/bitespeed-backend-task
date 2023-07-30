@@ -4,8 +4,7 @@
   "description": "Express.js Node.js app with TypeScript and Prisma",
   "main": "build/index.js",
   "scripts": {
-    "prebuild": "npm run clean",
-    "clean": "rimraf ./build",
+    "prebuild": "rimraf ./build",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "build": "./node_modules/typescript/bin/tsc -p .",
     "start": "node build/index.js",
