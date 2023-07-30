@@ -1,5 +1,5 @@
 import express from 'express'
-import { identifyContact } from '../controllers/contact-controller'
+import { identifyContact } from '../controllers/contacts/controller'
 
 const router = express.Router()
 
