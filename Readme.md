@@ -41,6 +41,8 @@ To get started with the Task, follow the requirements and setup instructions pro
   npm run start
 ```
 
+8. Note: sample `env-example` file is provided convert it to `.env` file and fill the values.
+
 ## Stack
 
 1. Framework - Express
