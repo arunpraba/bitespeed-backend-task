@@ -1,0 +1,62 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Compiled output
+dist/
+build/
+
+# Prisma
+/prisma/.env
+/prisma/migrations/
+/prisma/dev.db
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# IDE and editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and testing
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+*.reports
+*.nyc_output/
+coverage/
+
+# Dependency directories
+.jest/
+.pnp/
+.pnp.js
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Output of npm `npm ci`
+package-lock.json
+
+# Yarn integrity file
+.yarn-integrity
+
