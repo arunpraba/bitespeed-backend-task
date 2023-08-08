@@ -1,4 +1,4 @@
-# Bitespeed Backend Task: Identity Reconciliation
+# Identity Reconciliation
 
 This is a simple identity reconciliation service that keep track of a customer's identity across multiple purchases.
 
